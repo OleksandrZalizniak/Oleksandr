@@ -1,0 +1,9 @@
+<form action="{{ url_for('execute_file') }}" method="post">
+    <label>Select a file to execute:</label>
+    <select name="filename">
+        {% for file in files %}
+        <option value="{{ file }}">{{ file }}</option>
+        {% endfor %}
+    </select>
+    <button type="submit">Execute</button>
+</form>
