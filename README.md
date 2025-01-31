@@ -75,7 +75,7 @@ Atak "Cookie Stealing" (kradzież sesji) polega na przejęciu plików cookie uż
 
 **Zabezpieczenie przeciwko atakowi Cookie Stealing**
 
-Aby zapobiec kradzieży sesji, stosujemy następujące zabezpieczenia: 
+Aby zapobiec kradzieży sesji, stosuję następujące zabezpieczenia: 
 1. Ustawienie flagi HttpOnly → zapobiega wyciekom cookie przez JavaScript (np. XSS).
 2. Ustawienie flagi Secure → ciasteczko działa tylko na HTTPS.
 3. Powiązanie sesji z adresem IP i User-Agent → ciasteczko działa tylko na oryginalnym urządzeniu.
