@@ -11,8 +11,6 @@ DATABASE = "users.db"
 ENCRYPTION_KEY = b"1234567890abcdef1234567890abcdef"  # 32 bytes
 
 
-
-# Initialize the database
 def init_db():
     conn = sqlite3.connect(DATABASE)
     conn.execute("PRAGMA journal_mode=WAL;")
@@ -97,12 +95,11 @@ def login():
 
         conn = sqlite3.connect(DATABASE)
 
-        # Fetch user from database
         user = conn.execute("SELECT * FROM users WHERE username = '" + username + "'").fetchone()
         conn.close()
 
         if user and check_password_hash(user[2], password):  # user[2] is the hashed password in the database
-            session['username'] = username  # Store the username in session
+            session['username'] = username 
             flash("Login successful!", "success")
             return redirect(url_for("upload_file"))
         else:
@@ -222,5 +219,5 @@ def execute_file():
 
     return redirect(url_for("execute_file"))
 if __name__ == "__main__":
-    init_db()  # Ensure database is initialized
+    init_db() 
     app.run(debug=True)
