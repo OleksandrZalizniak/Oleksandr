@@ -31,6 +31,8 @@ Baza wiedzy:
 
 ##### Brute Force logowania
 **Jak wygląda atak brute-force na logowanie?**
+<img width="452" alt="image" src="https://github.com/user-attachments/assets/139465f7-4f8a-4900-b005-39cd39dc5870" />
+
 1. Atakujący uruchamia Hydrę i wskazuje adres URL formularza logowania.
 2. Podaje listę możliwych nazw użytkowników i haseł (słownik lub losowe generowanie haseł).
 3. Hydra wysyła setki/tysiące żądań HTTP do serwera, próbując różne kombinacje nazw użytkowników i haseł.
@@ -46,12 +48,16 @@ Aby uniemożliwić atak Hydra i inne podobne ataki brute-force, należy wprowadz
 Rate Limiting (Flask-Limiter) – ogranicza liczbę prób logowania.
 Blokada konta po 5 nieudanych próbach na 10 minut.
 Zastosowanie parametrów w zapytaniach SQL, aby uniknąć potencjalnych SQL Injection.
+![image](https://github.com/user-attachments/assets/5cd588a9-ec07-4f43-acc6-cabf3628537c)
+Teraz widzimy tak zwane False-positive response. Hydra pokazuje że wszystkie hasła dla tego użytkownika są poprawne, kiedy w rzeczywistości tak nie jest.
 
 
 ##### Cookies Stealing
 Atak "Cookie Stealing" (kradzież sesji) polega na przejęciu plików cookie użytkownika, w szczególności ciasteczka sesji (session), aby zalogować się na konto ofiary bez znajomości jej hasła. W ataku wykorzystuje się mechanizmy takie jak XSS (Cross-Site Scripting) lub wykradanie plików cookie przez malware.
 
 **Przykład ataku**
+![image](https://github.com/user-attachments/assets/45555af6-f6a8-4f79-9f23-4203adf0db6f)
+
 1. Logowanie w przeglądarce A:
     Użytkownik loguje się do aplikacji w Google Chrome (lub innej przeglądarce).
     Przeglądarka zapisuje plik cookie session (np. session=xyz123).
@@ -86,9 +92,4 @@ Zabezpieczenia CSRF: W drugiej wersji użyto flask_wtf.CSRFProtect, co zapewnia 
 
 Sesja wygasa po 5 minutach braku aktywności: W drugiej wersji aplikacji sesja użytkownika jest automatycznie wygaszana po 5 minutach nieaktywności, co zmniejsza ryzyko przejęcia sesji przez atakującego. W pierwszej wersji brak było takiego mechanizmu.
 
-<<<<<<< Updated upstream
 Logging i monitoring: W drugiej wersji wprowadzono logowanie aktywności użytkowników (logging), które może być przydatne w przypadku analizy bezpieczeństwa aplikacji. W pierwszym kodzie brak było tej funkcji.
->>>>>>> Stashed changes
-=======
-Logging i monitoring: W drugiej wersji wprowadzono logowanie aktywności użytkowników (logging), które może być przydatne w przypadku analizy bezpieczeństwa aplikacji. W pierwszym kodzie brak było tej funkcji.
->>>>>>> Stashed changes
