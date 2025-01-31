@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>File Storage App</title>
+</head>
+<body>
+    <h1>File Storage App</h1>
+    <h1>Welcome, {{ username }}!</h1>
+    <nav>
+        <a href="/">Home</a> |
+        <a href="/register">Register</a> |
+        <a href="/login">Login</a> |
+        <a href="/upload">Upload File</a> |
+        <a href="/download">Download File</a> 
+    </nav>
+    <hr>
+    {% with messages = get_flashed_messages(with_categories=true) %}
+    {% if messages %}
+        <ul>
+        {% for category, message in messages %}
+            <li style="color: {{ 'red' if category == 'error' else 'green' }}">{{ message }}</li>
+        {% endfor %}
+        </ul>
+    {% endif %}
+    {% endwith %}
+    {% block content %}{% endblock %}
+</body>
+</html>

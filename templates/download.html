@@ -1,0 +1,23 @@
+{% extends "base.html" %}
+{% block content %}
+<h2>Download File</h2>
+
+{% if files %}
+    <form method="POST">
+        <label for="username">Username:</label>
+        <input type="text" id="username" name="username" value="{{ username }}" readonly><br>
+
+        <label for="filename">Select a file:</label>
+        <select id="filename" name="filename" required>
+            {% for file in files %}
+            <option value="{{ file }}">{{ file }}</option>
+            {% endfor %}
+        </select><br>
+
+        <button type="submit" name="action" value="Download">Download</button>
+        <button type="submit" name="action" value="View Content">View Content</button>
+    </form>
+{% else %}
+    <p>No files found for this user.</p>
+{% endif %}
+{% endblock %}

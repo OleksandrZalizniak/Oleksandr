@@ -1,0 +1,16 @@
+<!-- templates/view_file.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>View File - {{ filename }}</title>
+</head>
+<body>
+    <h1>Viewing File: {{ filename }}</h1>
+    <p><strong>Username: </strong>{{ username }}</p>
+    <pre>{{ content }}</pre>
+    <br>
+    <a href="{{ url_for('download_file') }}">Back to file list</a>
+</body>
+</html>
