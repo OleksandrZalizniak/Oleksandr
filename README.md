@@ -86,5 +86,9 @@ Zabezpieczenia CSRF: W drugiej wersji użyto flask_wtf.CSRFProtect, co zapewnia 
 
 Sesja wygasa po 5 minutach braku aktywności: W drugiej wersji aplikacji sesja użytkownika jest automatycznie wygaszana po 5 minutach nieaktywności, co zmniejsza ryzyko przejęcia sesji przez atakującego. W pierwszej wersji brak było takiego mechanizmu.
 
+<<<<<<< Updated upstream
+Logging i monitoring: W drugiej wersji wprowadzono logowanie aktywności użytkowników (logging), które może być przydatne w przypadku analizy bezpieczeństwa aplikacji. W pierwszym kodzie brak było tej funkcji.
+>>>>>>> Stashed changes
+=======
 Logging i monitoring: W drugiej wersji wprowadzono logowanie aktywności użytkowników (logging), które może być przydatne w przypadku analizy bezpieczeństwa aplikacji. W pierwszym kodzie brak było tej funkcji.
 >>>>>>> Stashed changes
