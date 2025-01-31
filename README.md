@@ -1,8 +1,8 @@
-<<<<<<< Updated upstream
-# Oleksandr161431
-=======
 # Prosta strona do przechowywania plików
-
+## !
+1. Branch 'main' -- kod po wszystkich zabezpieczeniach.
+2. Branch 'niezabezpieczona-aplikacja' -- wiadomo z nazwy.
+   
 ### 1. Szyfrowanie plików
 
 Przy załadowaniu pliku do serweru przy pomocy widoku "Upload", plik zostaje zaszyfrowany. Przy pobieraniu - deszyfrowany.
