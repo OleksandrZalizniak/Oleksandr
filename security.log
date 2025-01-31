@@ -1,0 +1,230 @@
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 641-323-692
+INFO:werkzeug:127.0.0.1 - - [31/Jan/2025 21:14:11] "GET /login HTTP/1.1" 200 -
+INFO:flask_wtf.csrf:The CSRF token is missing.
+INFO:werkzeug:127.0.0.1 - - [31/Jan/2025 21:14:16] "[31m[1mPOST /login HTTP/1.1[0m" 400 -
+INFO:werkzeug:127.0.0.1 - - [31/Jan/2025 21:14:20] "GET /login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [31/Jan/2025 21:14:21] "GET /login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [31/Jan/2025 21:14:21] "GET /login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [31/Jan/2025 21:14:22] "GET /login HTTP/1.1" 200 -
+INFO:flask_wtf.csrf:The CSRF token is missing.
+INFO:werkzeug:127.0.0.1 - - [31/Jan/2025 21:14:26] "[31m[1mPOST /login HTTP/1.1[0m" 400 -
+INFO:flask-limiter:ratelimit 5 per 1 minute (127.0.0.1) exceeded at endpoint: login
+INFO:werkzeug:127.0.0.1 - - [31/Jan/2025 21:14:41] "[31m[1mGET /login HTTP/1.1[0m" 429 -
+INFO:flask-limiter:ratelimit 5 per 1 minute (127.0.0.1) exceeded at endpoint: login
+INFO:werkzeug:127.0.0.1 - - [31/Jan/2025 21:14:42] "[31m[1mGET /login HTTP/1.1[0m" 429 -
+INFO:flask-limiter:ratelimit 5 per 1 minute (127.0.0.1) exceeded at endpoint: login
+INFO:werkzeug:127.0.0.1 - - [31/Jan/2025 21:14:42] "[31m[1mGET /login HTTP/1.1[0m" 429 -
+INFO:flask-limiter:ratelimit 5 per 1 minute (127.0.0.1) exceeded at endpoint: login
+INFO:werkzeug:127.0.0.1 - - [31/Jan/2025 21:14:43] "[31m[1mGET /login HTTP/1.1[0m" 429 -
+INFO:flask-limiter:ratelimit 5 per 1 minute (127.0.0.1) exceeded at endpoint: login
+INFO:werkzeug:127.0.0.1 - - [31/Jan/2025 21:14:43] "[31m[1mGET /login HTTP/1.1[0m" 429 -
+INFO:flask-limiter:ratelimit 5 per 1 minute (127.0.0.1) exceeded at endpoint: login
+INFO:werkzeug:127.0.0.1 - - [31/Jan/2025 21:14:43] "[31m[1mGET /login HTTP/1.1[0m" 429 -
+INFO:werkzeug: * Detected change in '/Users/svetademianova/Documents/GitHub/Oleksandr161431/app.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:werkzeug: * Restarting with stat
+INFO:werkzeug: * Restarting with stat
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 641-323-692
+INFO:werkzeug:127.0.0.1 - - [31/Jan/2025 21:28:27] "[32mGET /upload HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [31/Jan/2025 21:28:27] "GET /login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [31/Jan/2025 21:28:30] "GET /login HTTP/1.1" 200 -
+INFO:flask_wtf.csrf:The CSRF token is missing.
+INFO:werkzeug:127.0.0.1 - - [31/Jan/2025 21:28:35] "[31m[1mPOST /login HTTP/1.1[0m" 400 -
+INFO:werkzeug: * Detected change in '/Users/svetademianova/Documents/GitHub/Oleksandr161431/app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 641-323-692
+INFO:werkzeug: * Detected change in '/Users/svetademianova/Documents/GitHub/Oleksandr161431/app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 641-323-692
+INFO:werkzeug: * Detected change in '/Users/svetademianova/Documents/GitHub/Oleksandr161431/app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 641-323-692
+INFO:werkzeug: * Detected change in '/Users/svetademianova/Documents/GitHub/Oleksandr161431/app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 641-323-692
+INFO:werkzeug: * Detected change in '/Users/svetademianova/Documents/GitHub/Oleksandr161431/app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 641-323-692
+INFO:werkzeug: * Detected change in '/Users/svetademianova/Documents/GitHub/Oleksandr161431/app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 641-323-692
+INFO:flask_wtf.csrf:The CSRF token is missing.
+INFO:werkzeug:127.0.0.1 - - [31/Jan/2025 21:34:14] "[31m[1mPOST /login HTTP/1.1[0m" 400 -
+INFO:werkzeug:127.0.0.1 - - [31/Jan/2025 21:34:16] "[35m[1mGET /login HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [31/Jan/2025 21:34:16] "GET /login?__debugger__=yes&cmd=resource&f=console.png&s=BjqiMXtbEazoHK1MPEjb HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [31/Jan/2025 21:34:16] "[36mGET /login?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 641-323-692
+INFO:werkzeug:127.0.0.1 - - [31/Jan/2025 21:35:11] "[35m[1mGET /login HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [31/Jan/2025 21:35:11] "[36mGET /login?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [31/Jan/2025 21:35:11] "[36mGET /login?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [31/Jan/2025 21:35:11] "GET /login?__debugger__=yes&cmd=resource&f=console.png&s=KnsZ2RWpxJkR7IvYiGWV HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [31/Jan/2025 21:35:11] "[36mGET /login?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [31/Jan/2025 21:35:12] "[35m[1mGET /login HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [31/Jan/2025 21:35:12] "[36mGET /login?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [31/Jan/2025 21:35:12] "[36mGET /login?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [31/Jan/2025 21:35:12] "[36mGET /login?__debugger__=yes&cmd=resource&f=console.png&s=KnsZ2RWpxJkR7IvYiGWV HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [31/Jan/2025 21:35:12] "[36mGET /login?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [31/Jan/2025 21:35:12] "[35m[1mGET /login HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [31/Jan/2025 21:35:12] "[36mGET /login?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [31/Jan/2025 21:35:12] "[36mGET /login?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [31/Jan/2025 21:35:12] "[36mGET /login?__debugger__=yes&cmd=resource&f=console.png&s=KnsZ2RWpxJkR7IvYiGWV HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [31/Jan/2025 21:35:13] "[36mGET /login?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 641-323-692
+INFO:werkzeug:127.0.0.1 - - [31/Jan/2025 21:40:25] "[35m[1mGET /login HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [31/Jan/2025 21:40:25] "[36mGET /login?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [31/Jan/2025 21:40:25] "[36mGET /login?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [31/Jan/2025 21:40:25] "GET /login?__debugger__=yes&cmd=resource&f=console.png&s=92S8hl9f6obDibZ0JEWP HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [31/Jan/2025 21:40:25] "[36mGET /login?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [31/Jan/2025 21:40:25] "[35m[1mGET /login HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [31/Jan/2025 21:40:25] "[36mGET /login?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [31/Jan/2025 21:40:25] "[36mGET /login?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [31/Jan/2025 21:40:25] "[36mGET /login?__debugger__=yes&cmd=resource&f=console.png&s=92S8hl9f6obDibZ0JEWP HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [31/Jan/2025 21:40:25] "[36mGET /login?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [31/Jan/2025 21:40:26] "[35m[1mGET /login HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [31/Jan/2025 21:40:26] "[36mGET /login?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [31/Jan/2025 21:40:26] "[36mGET /login?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [31/Jan/2025 21:40:26] "[36mGET /login?__debugger__=yes&cmd=resource&f=console.png&s=92S8hl9f6obDibZ0JEWP HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [31/Jan/2025 21:40:26] "[36mGET /login?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [31/Jan/2025 21:40:32] "[35m[1mGET /login HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [31/Jan/2025 21:40:32] "[36mGET /login?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [31/Jan/2025 21:40:32] "[36mGET /login?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [31/Jan/2025 21:40:32] "GET /login?__debugger__=yes&cmd=resource&f=console.png&s=92S8hl9f6obDibZ0JEWP HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [31/Jan/2025 21:40:32] "[36mGET /login?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+INFO:werkzeug: * Detected change in '/Users/svetademianova/Documents/GitHub/Oleksandr161431/app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 641-323-692
+INFO:werkzeug: * Detected change in '/Users/svetademianova/Documents/GitHub/Oleksandr161431/app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 641-323-692
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 641-323-692
+INFO:werkzeug:127.0.0.1 - - [31/Jan/2025 21:45:57] "[35m[1mGET /login HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [31/Jan/2025 21:45:57] "[36mGET /login?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [31/Jan/2025 21:45:57] "[36mGET /login?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [31/Jan/2025 21:45:57] "GET /login?__debugger__=yes&cmd=resource&f=console.png&s=KOwmTnA9SsxzqTSpxjuO HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [31/Jan/2025 21:45:57] "[36mGET /login?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [31/Jan/2025 21:45:57] "[35m[1mGET /login HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [31/Jan/2025 21:45:57] "[36mGET /login?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [31/Jan/2025 21:45:57] "[36mGET /login?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [31/Jan/2025 21:45:57] "[36mGET /login?__debugger__=yes&cmd=resource&f=console.png&s=KOwmTnA9SsxzqTSpxjuO HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [31/Jan/2025 21:45:57] "[36mGET /login?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+INFO:werkzeug: * Detected change in '/Users/svetademianova/Documents/GitHub/Oleksandr161431/app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 641-323-692
+INFO:werkzeug:127.0.0.1 - - [31/Jan/2025 21:46:25] "[35m[1mGET /login HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [31/Jan/2025 21:46:25] "[36mGET /login?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [31/Jan/2025 21:46:25] "[36mGET /login?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [31/Jan/2025 21:46:25] "GET /login?__debugger__=yes&cmd=resource&f=console.png&s=Kea22WUh2DhKLw4yUHHw HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [31/Jan/2025 21:46:25] "[36mGET /login?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+INFO:werkzeug: * Detected change in '/Users/svetademianova/Documents/GitHub/Oleksandr161431/app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 641-323-692
+INFO:werkzeug:127.0.0.1 - - [31/Jan/2025 21:46:46] "[35m[1mGET /login HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [31/Jan/2025 21:46:46] "[36mGET /login?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [31/Jan/2025 21:46:46] "[36mGET /login?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [31/Jan/2025 21:46:46] "GET /login?__debugger__=yes&cmd=resource&f=console.png&s=1xCIIlxjf4SeMHMPw8P2 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [31/Jan/2025 21:46:46] "[36mGET /login?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [31/Jan/2025 21:46:47] "[35m[1mGET /login HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [31/Jan/2025 21:46:47] "[36mGET /login?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [31/Jan/2025 21:46:47] "[36mGET /login?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [31/Jan/2025 21:46:47] "[36mGET /login?__debugger__=yes&cmd=resource&f=console.png&s=1xCIIlxjf4SeMHMPw8P2 HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [31/Jan/2025 21:46:47] "[36mGET /login?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [31/Jan/2025 21:47:14] "[36mGET /login?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [31/Jan/2025 21:49:23] "[35m[1mGET /login HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [31/Jan/2025 21:49:23] "[36mGET /login?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [31/Jan/2025 21:49:23] "[36mGET /login?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [31/Jan/2025 21:49:23] "[36mGET /login?__debugger__=yes&cmd=resource&f=console.png&s=1xCIIlxjf4SeMHMPw8P2 HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [31/Jan/2025 21:49:23] "[36mGET /login?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 641-323-692
+INFO:werkzeug:127.0.0.1 - - [31/Jan/2025 21:51:00] "GET /login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [31/Jan/2025 21:51:07] "[35m[1mPOST /login HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [31/Jan/2025 21:51:07] "[36mGET /login?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [31/Jan/2025 21:51:07] "[36mGET /login?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [31/Jan/2025 21:51:07] "GET /login?__debugger__=yes&cmd=resource&f=console.png&s=TldmT534zTfES5g3KJ86 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [31/Jan/2025 21:51:07] "[36mGET /login?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+INFO:werkzeug: * Detected change in '/Users/svetademianova/Documents/GitHub/Oleksandr161431/app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 641-323-692
+INFO:werkzeug: * Detected change in '/Users/svetademianova/Documents/GitHub/Oleksandr161431/app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 641-323-692
+INFO:werkzeug:127.0.0.1 - - [31/Jan/2025 21:52:16] "GET /login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [31/Jan/2025 21:52:19] "[32mPOST /login HTTP/1.1[0m" 302 -
+INFO:root:User 1 accessed /upload at 2025-01-31 21:52:19.995808
+INFO:werkzeug:127.0.0.1 - - [31/Jan/2025 21:52:19] "GET /upload HTTP/1.1" 200 -
+INFO:root:User 1 accessed /upload at 2025-01-31 21:52:24.461484
+INFO:werkzeug:127.0.0.1 - - [31/Jan/2025 21:52:24] "GET /upload HTTP/1.1" 200 -
+INFO:root:User 1 accessed /download at 2025-01-31 21:52:25.925141
+INFO:werkzeug:127.0.0.1 - - [31/Jan/2025 21:52:25] "GET /download HTTP/1.1" 200 -
+INFO:root:User 1 accessed /upload at 2025-01-31 21:52:26.658887
+INFO:werkzeug:127.0.0.1 - - [31/Jan/2025 21:52:26] "GET /upload HTTP/1.1" 200 -
+INFO:root:User 1 accessed /login at 2025-01-31 21:52:27.525781
+INFO:werkzeug:127.0.0.1 - - [31/Jan/2025 21:52:27] "GET /login HTTP/1.1" 200 -
+INFO:root:User 1 accessed /register at 2025-01-31 21:52:28.052618
+INFO:werkzeug:127.0.0.1 - - [31/Jan/2025 21:52:28] "GET /register HTTP/1.1" 200 -
+INFO:root:User 1 accessed /login at 2025-01-31 21:52:28.726941
+INFO:werkzeug:127.0.0.1 - - [31/Jan/2025 21:52:28] "GET /login HTTP/1.1" 200 -
+INFO:root:User 1 accessed /login at 2025-01-31 21:52:29.966913
+INFO:werkzeug:127.0.0.1 - - [31/Jan/2025 21:52:29] "GET /login HTTP/1.1" 200 -
+INFO:root:User 1 accessed /login at 2025-01-31 21:52:30.158611
+INFO:flask-limiter:ratelimit 5 per 1 minute (127.0.0.1) exceeded at endpoint: login
+INFO:werkzeug:127.0.0.1 - - [31/Jan/2025 21:52:30] "[31m[1mGET /login HTTP/1.1[0m" 429 -
+INFO:root:User 1 accessed /login at 2025-01-31 21:52:30.328681
+INFO:flask-limiter:ratelimit 5 per 1 minute (127.0.0.1) exceeded at endpoint: login
+INFO:werkzeug:127.0.0.1 - - [31/Jan/2025 21:52:30] "[31m[1mGET /login HTTP/1.1[0m" 429 -
+INFO:root:User 1 accessed /login at 2025-01-31 21:52:31.238501
+INFO:flask-limiter:ratelimit 5 per 1 minute (127.0.0.1) exceeded at endpoint: login
+INFO:werkzeug:127.0.0.1 - - [31/Jan/2025 21:52:31] "[31m[1mGET /login HTTP/1.1[0m" 429 -
+INFO:root:User 1 accessed /login at 2025-01-31 21:52:31.741479
+INFO:flask-limiter:ratelimit 5 per 1 minute (127.0.0.1) exceeded at endpoint: login
+INFO:werkzeug:127.0.0.1 - - [31/Jan/2025 21:52:31] "[31m[1mGET /login HTTP/1.1[0m" 429 -
+INFO:root:User 1 accessed /login at 2025-01-31 21:52:31.914710
+INFO:flask-limiter:ratelimit 5 per 1 minute (127.0.0.1) exceeded at endpoint: login
+INFO:werkzeug:127.0.0.1 - - [31/Jan/2025 21:52:31] "[31m[1mGET /login HTTP/1.1[0m" 429 -
+INFO:root:User 1 accessed /upload at 2025-01-31 21:52:33.882434
+INFO:werkzeug:127.0.0.1 - - [31/Jan/2025 21:52:33] "GET /upload HTTP/1.1" 200 -
+INFO:flask_wtf.csrf:The CSRF token is missing.
+INFO:werkzeug:127.0.0.1 - - [31/Jan/2025 21:53:07] "[31m[1mPOST /upload HTTP/1.1[0m" 400 -
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 641-323-692

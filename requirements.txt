@@ -1,0 +1,6 @@
+flask
+cryptography
+werkzeug
+flask-limiter
+Flask-Session
+Flask-WTF
