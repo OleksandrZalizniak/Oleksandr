@@ -87,7 +87,7 @@ def session_timeout():
     if 'last_activity' in session:
         now = datetime.now()
         last_activity = session['last_activity']
-        if (now - last_activity).seconds > 300:  # 5 min timeout
+        if (now - last_activity).seconds > 300:
             session.clear()
             flash("Session expired. Please log in again.", "info")
             return redirect(url_for("login"))
@@ -191,13 +191,13 @@ def login():
                 session['last_failed_login'] = None
 
         conn = sqlite3.connect(DATABASE)
-        # Fetch user from database
+
         user = conn.execute("SELECT * FROM users WHERE username = ?", (username,)).fetchone()
         conn.close()
 
         if user and check_password_hash(user[2], password):  # user[2] is the hashed password in the database
-            session['login_attempts'] = 0  # Reset failed login attempts
-            session['last_failed_login'] = None  # Reset the lockout time
+            session['login_attempts'] = 0  
+            session['last_failed_login'] = None  
             session['username'] = username  # Store username in session after successful login
             flash("Login successful!", "success")
             return redirect(url_for("upload_file"))
@@ -330,5 +330,5 @@ def execute_file():
 
     return redirect(url_for("execute_file"))
 if __name__ == "__main__":
-    init_db()  # Ensure database is initialized
+    init_db() 
     app.run(debug=True)
