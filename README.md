@@ -2,6 +2,8 @@
 ## !
 1. Branch 'main' -- kod po wszystkich zabezpieczeniach.
 2. Branch 'niezabezpieczona-aplikacja' -- wiadomo z nazwy.
+
+   Komentarze dodane dla lepszego wytłumaczenia.
    
 ### 1. Szyfrowanie plików
 
